@@ -1,0 +1,54 @@
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/index.css" />
+		<title>Yeni Yapılacak Oluşturma</title>
+	</head>
+	<body>
+		<nav>
+			<h1>Yeni Yapılacak</h1>
+			<a href="/" class="btn">Geri</a>
+		</nav>
+
+		<main class="wrap">
+			<form class="create">
+				<label for="title">
+					<span>Başlık:</span>
+					<input type="text" name="title" required />
+				</label>
+
+				<label for="description">
+					<span>Açıklama:</span>
+					<textarea name="description" required></textarea>
+				</label>
+
+				<fieldset>
+					<legend>Grup:</legend>
+					<label>
+						<input type="checkbox" name="grup" value="market" />
+						<span>Market</span>
+					</label>
+					<label>
+						<input type="checkbox" name="grup" value="is" />
+						<span>İş</span>
+					</label>
+					<label>
+						<input type="checkbox" name="grup" value="ders" />
+						<span>Ders</span>
+					</label>
+                    <label>
+						<input type="checkbox" name="grup" value="spor" />
+						<span>Spor</span>
+					</label>
+				</fieldset>
+
+				
+
+				<button>Oluştur</button>
+			</form>
+		</main>
+
+        <script type="module" src="ts/create.ts"></script>
+	</body>
+</html>

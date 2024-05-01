@@ -1,0 +1,47 @@
+{
+  "yapilacaklar": [
+    {
+      "id": 1,
+      "title": "Typescript Kurs",
+      "description": "Udemy için Her Yönüyle Typescript Kursu video içeriklerinin hazırlanması",
+      "grup": [
+        "is",
+        "ders"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Market Alışverişi",
+      "description": "2 kilo soğan, 1 kilo havuç, yoğurt",
+      "grup": [
+        "market"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Temel Python",
+      "description": "Youtube için Temel Python oynatma listesi hazırlanması",
+      "grup": [
+        "is",
+        "ders"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Spora Gidiş",
+      "description": "Bacak günü",
+      "grup": [
+        "spor"
+      ]
+    },
+    {
+      "title": "yeni başlık",
+      "description": "açıklama",
+      "grup": [
+        "market",
+        "is"
+      ],
+      "id": 5
+    }
+  ]
+}
